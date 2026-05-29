@@ -70,7 +70,6 @@ import base64
 import pandas as pd
 import tqdm
 import os
-import join
 
 from glob import iglob
 from io import BytesIO
@@ -125,7 +124,6 @@ def get_vec(arg, model, extraction_layer):
         return features[0].squeeze()
     else:
         return torch.empty(0)
-
 
 THUMBNAIL_SIZE = (64, 64)
 
