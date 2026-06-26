@@ -5,6 +5,4 @@ begin
     height, width = size(image)
 
     println(typeof(image))
-
-    
 end
